@@ -15,14 +15,15 @@ withDefaults(defineProps<{ name?: string }>(), { name: 'Yes' })
   background: white;
   padding: 2.65ex;
   text-align: center;
-  box-shadow: 2px 0 10px rgba(black, 22%);
-  width: 20%;
+  box-shadow: 0 2px 10px rgba(black, 22%);
+  width: max(240px, 25%);
   border-radius: 7px;
 }
 
 img {
-  width: clamp(127px, 100%, 150px);
+  width: 75%;
   margin: 0 auto;
   border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(black, 22%);
 }
 </style>
